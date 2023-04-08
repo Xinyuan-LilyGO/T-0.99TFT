@@ -33,11 +33,5 @@ void setup()
 int i = 0;
 void loop()
 {
-    for (int j = 0; j < 4; j++) {
-        TFT_099.DrawImage(0, (160 - (i + j * 55)), 30, 30, image_data_30);
-    }
-    i++;
-    if (i == 55) {
-        i = 0;
-    }
+    
 }
